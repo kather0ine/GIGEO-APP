@@ -13,7 +13,7 @@
       font-size: $xx-large;
     }
   }
-  
+
   &__container-followers {
     color: $granite-gray;
 
@@ -29,10 +29,9 @@
   width: 6rem;
   height: 5.7rem;
 
-
   @media (max-width: 768px) {
     border-radius: 50%;
-  width: 7rem;
-  height: 6.6rem;
+    width: 7rem;
+    height: 6.6rem;
   }
 }

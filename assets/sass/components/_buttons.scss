@@ -1,17 +1,13 @@
-.hero__container-buttons  {
-    
-    @media (max-width: 768px) {
-          display: none;
-        }
-      
-
+.hero__container-buttons {
+  @media (max-width: 768px) {
+    display: none;
+  }
 }
 
 .button-item1 {
- @include boton1 
-
+  @include boton1;
 }
 
-.button-item2{
-   @include boton2
+.button-item2 {
+  @include boton2;
 }

@@ -1,0 +1,37 @@
+.article {
+  &__titulo {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: x-large;
+    font-family: $poppins;
+    font-weight: $regular;
+
+    @media (max-width: 768px) {
+      text-align: center;
+      font-size: $xx-large;
+    }
+  }
+
+  &__card-text {
+    color: $granite-gray;
+  }
+  &__img {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  @media (max-width: 991px) {
+    height: 10rem;
+  }
+
+  @media (max-width: 768px) {
+    padding-left: 1.5rem;
+  }
+
+  @media (max-width: 576px) {
+    padding-left: 1.5rem;
+  }
+}

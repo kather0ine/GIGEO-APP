@@ -1,0 +1,37 @@
+// Transforma px en rem
+@mixin relative-converter($property, $unit, $target, $context) {
+  $result: ($target / $context);
+  #{$property}: #{$result + $unit};
+}
+
+@mixin boton1 {
+  font-size: $small;
+  background-color: $before-blue;
+  color: $white;
+  border: 1px $before-blue;
+  padding: 0.4rem;
+  padding-left: 0.7rem;
+  padding-right: 0.7rem;
+  margin-left: 0;
+
+  &:hover {
+    background-color: $after-blue;
+    color: $white;
+  }
+}
+
+@mixin boton2 {
+  font-size: $small;
+  background-color: $before-orange;
+  color: $white;
+  border: 1px $before-orange;
+  padding: 0.4rem;
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+  margin-left: 0;
+
+  &:hover {
+    background-color: $after-orange;
+    color: $white;
+  }
+}

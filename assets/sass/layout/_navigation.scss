@@ -1,0 +1,16 @@
+.gigeo {
+  position: relative;
+  font-family: $poppins !important;
+  font-weight: $semi-bold;
+  font-size: $xxxx-large;
+}
+.navbar-brand {
+  position: relative;
+
+  &__sup {
+    position: absolute;
+    font-size: $x-small;
+    font-weight: $flight !important;
+    top: 0.8rem;
+  }
+}

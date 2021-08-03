@@ -1,0 +1,38 @@
+.hero {
+  margin: 0.5rem 3%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &__container-name {
+    font-size: x-large;
+    font-weight: $medium;
+
+    @media (max-width: 768px) {
+      font-weight: $semi-bold;
+      font-size: $xx-large;
+    }
+  }
+  
+  &__container-followers {
+    color: $granite-gray;
+
+    @media (max-width: 768px) {
+      font-size: 1.2rem;
+      font-weight: $flight;
+    }
+  }
+}
+
+.image {
+  border-radius: 50%;
+  width: 6rem;
+  height: 5.7rem;
+
+
+  @media (max-width: 768px) {
+    border-radius: 50%;
+  width: 7rem;
+  height: 6.6rem;
+  }
+}
